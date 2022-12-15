@@ -1,0 +1,41 @@
+UNIT TESTS for wordTools:
+**********************************************************************
+File "lab3stress.py", line 33, in __main__.sizedTests
+Failed example:
+    len(sized(6,words('words/bibleNames')))
+Expected:
+    517
+Got:
+    519
+**********************************************************************
+File "lab3stress.py", line 21, in __main__.wordsTests
+Failed example:
+    len(words('words/bibleNames'))
+Expected:
+    2114
+Got:
+    2118
+**********************************************************************
+2 items had failures:
+   1 of   3 in __main__.sizedTests
+   1 of   3 in __main__.wordsTests
+***Test Failed*** 2 failures.
+
+PROBLEM OUTPUTS:
+CHECK FOR P5 in wordTools.py (isIsogram modified?)
+
+RUN OF SCRIPT for Problem 1:
+Tonsilr can be rearranged to spell nostril.
+
+RUN OF SCRIPT for Problem 2:
+Orleans is an anagram of Salerno.
+
+RUN OF SCRIPT for Problem 4:
+The prominenet bible name is Herod.
+
+RUN OF SCRIPT for Problem 6:
+There are 6973 lowercase 7-letter isograms in 'words/dict'.
+
+RUN OF SCRIPT for Problem 7:
+There are 17 words in 'words/dict' that meet these conditions.
+TESTING COMPLETED.
